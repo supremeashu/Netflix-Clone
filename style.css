@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/98a1cb1e-5a1d-4b98-a46f-995272b632dd/IN-en-20240129-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 120vw);
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.63;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    width: 76%;
+    justify-content: space-between;
+    padding: 15px 0 135px 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: rgb(229, 9, 20);
+    width: 148px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    height: calc(100% - 220px + 0.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.seperation {
+    height: 0.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+.btn {
+    background-color: rgba(3, 3, 3, 0.427);
+    color: white;
+    border-radius: 5px;
+    padding: 3px 11px;
+    font-size: 17px;
+    font-weight: 400;
+    border-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.463);
+    cursor: pointer;
+}
+
+.hero_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero input {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 9rem 0.8rem 10px;
+    margin: 0 0.25rem;
+    cursor: text;
+}
+
+.redbtn {
+    background-color: rgb(229, 9, 20);
+    border-style: none;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0.25rem;
+    ;
+}
+
+.redbtn-si {
+    background-color: rgb(229, 9, 20);
+    border-style: none;
+    border: 1px solid rgb(229, 9, 20);
+}
+
+.btn-eng {
+    padding: 4px 35px;
+    margin: 0 4px;
+    cursor: auto;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    padding: 13vh 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.firimg {
+    position: relative;
+}
+
+.firimg img {
+    padding: 12px 0;
+    width: 400px;
+}
+
+.firimg video {
+    padding: 12px 0;
+    top: 62px;
+    right: 56px;
+    position: absolute;
+    width: 291px;
+    z-index: -9;
+}
+.thrimg video {
+    padding: 12px 0;
+    top: 25px;
+    right: 71px;
+    position: absolute;
+    width: 263px;
+    z-index: -9;
+}
+
+@media screen and (max-width: 620px){
+    .hero_btn {
+        flex-direction: column;
+    }
+    .firimg img {
+        width: 250px;
+    }  
+    .firimg video {
+        top: 41px;
+        width: 180px;
+        right: 36px;
+    }
+    .thrimg video {
+        top: 17px;
+        right: 51px;
+        width: 154px;
+    }
+    .hero_btn input{
+        height: 7px;
+        width: 30%;
+    }
+    .hero_btn button{
+        font-size: 8px;
+    }
+}
+
+.firhero{
+    display: flex;
+    flex-direction: column;
+}
+.firhero> :nth-child(1) {
+    font-size: 3rem;
+    font-weight: 900;
+    
+    justify-content: center;
+}
+
+.firhero> :nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.faqh2{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: auto;
+    margin-top: 11vh;
+    margin-bottom: 5vh;
+}
+.faq{
+    margin: 18px 0 40px 0;
+}
+.faq :hover{
+    background-color: #414141;
+}
+
+.faqbox{
+    transition: all 0.2s ease-out;
+    color: white;
+    display: flex;
+    background-color: rgb(47, 46, 46);
+    padding: 27px 12px;
+    margin: auto;
+    margin-bottom: 1vh;
+    width: 75vw;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 14px;
+}
+
+@media  screen and (max-width: 960px) {
+    .first{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    nav {
+        width: 90vw;
+    }
+    .hero> :nth-child(1) {
+        font-size: 2rem;
+    }
+    .hero> :nth-child(2) {
+        font-size: 1rem;
+    }
+    .hero> :nth-child(3) {
+        font-size: 1rem;
+    }
+    .firhero> :nth-child(1) {
+        font-size: 2rem;
+    }
+    .firhero> :nth-child(2) {
+        font-size: 1rem;
+    }
+    nav img {
+        width: 100px;
+    }
+    .hero{
+        height: calc(100% - 330px + 0.5rem);
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+.ques{
+    padding: 54px 14px 20px 14px;
+}
+.footer a{
+    font-size: 14px;
+    color: white;
+}
+
+.footerItem{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}

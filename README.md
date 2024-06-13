@@ -1,7 +1,7 @@
 # Netflix-Clone
 Here I tried to clone netflix webpage using HTML and CSS only.
 This website is fully responsive. <br>
-### visit website -> https://netflixsupremeashu.netlify.app/
+### visit website -> https://netflix-clone-6m8xuj27h-supremeashus-projects.vercel.app/
 ## Demo Picture
 <img width="460" alt="front page" src="https://github.com/supremeashu/Netflix-Clone/assets/145740067/e16560f4-a6f0-4f73-847a-b2395e163640">
 <br><br>
